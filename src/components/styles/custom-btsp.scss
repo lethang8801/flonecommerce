@@ -1,0 +1,38 @@
+.slide{
+    margin: 80px auto 0 auto;
+    max-width: 1800px;
+    overflow: hidden;
+}
+.carousel-item img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 600px;
+}
+.carousel-caption {
+    color: #000;
+    left: 50%;
+    top: 20%;
+    text-align: left;
+}
+.carousel-caption p{
+    font-size:45px;
+    font-weight:700
+}
+.sr-only{
+    display:none;
+}
+.bg-light{
+    background-color: transparent;
+}
+.nav{
+    max-width:1200px;
+    margin:auto;
+}
+.nav-link{
+    padding: 8px 16px 8px 0;
+    color: #000;
+}   
+.nav-item{
+    list-style-type: none;
+    text-decoration-line:underline
+}

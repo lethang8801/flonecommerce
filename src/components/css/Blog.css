@@ -1,0 +1,34 @@
+.list-blog h3{
+    text-align:center;
+    font-size:40px
+}
+.list-blog{
+    margin:20px 0;
+}
+.blogs{
+    max-width: 1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+}
+.item-blog{
+    position: relative;
+}
+.blog-title{
+    padding: 10px 50px;
+    text-align: center;
+    position:absolute;
+    background-color:white;
+    bottom:-5%;
+    right: 10%;
+    left:10%;
+}
+.img-blog:hover{
+    transform: scale(1.1);
+}
+.img-blog{
+    transition: transform .8s ease-in-out;
+}
+.item-blog{
+    overflow: hidden;
+}

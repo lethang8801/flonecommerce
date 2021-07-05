@@ -1,0 +1,33 @@
+.container-1{
+    margin: 20px auto;
+    display:flex;
+    max-width: 1200px;
+    justify-content:space-between;
+    align-items: center ;
+}
+.new-item{
+    position: relative;
+    overflow: hidden;
+}
+.new-item img:hover{
+    transform: scale(1.1);
+}
+.text-item img{
+    transition: transform .8s ease-in-out;
+    display:block;
+}
+.text-item{
+    position: absolute; 
+    top: 10%;
+    left: 10%;
+}
+.text-item h4{
+    font-family: Garamond;
+    font-size: 40px;
+}
+.text-item p{
+    font-size: 16px;
+}
+.text-item span{
+    color:crimson
+}

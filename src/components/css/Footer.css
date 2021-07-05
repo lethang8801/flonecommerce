@@ -1,0 +1,13 @@
+.footer{
+    background-color:#f6f6f8;
+}
+.list-footer{
+    display:flex;
+    justify-content:space-between;
+    margin:20px auto;
+    padding: 100px 0;
+    max-width:1200px;
+}
+.list-footer li{
+    list-style-type: none;
+}

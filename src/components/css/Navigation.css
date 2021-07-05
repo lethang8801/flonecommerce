@@ -1,0 +1,46 @@
+.header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: white;
+}
+.nav-1{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height:80px;
+    max-width: 1800px;
+    margin:auto;
+}
+.nav-moblie{
+    display: none;
+}
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing:1rem;
+    line-height:1rem;
+}
+.fa{
+    padding: 5px;
+    font-size: 20px !important;
+}
+.navbar-nav{
+    align-items:center;
+}
+.nav-link {
+    text-decoration: none   ;
+}
+.bg-light{
+    background-color:transparent !important
+}
+
+@media only screen and (max-width: 876px) {
+.nav-1{
+    display:none;
+}
+.nav-moblie{
+    display:block;
+}
+}

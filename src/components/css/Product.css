@@ -1,0 +1,53 @@
+
+.product-8{
+    max-width:1200px;
+    margin:auto;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.product{
+    width: 23%;
+    position: relative;
+    margin: 10px 0;
+}
+.product img{
+    width: 100%;
+    object-fit: cover;
+}
+.text-product{
+    display: flex;
+    justify-content:space-between;
+}
+.text-product p{
+    color: #000;
+    font-weight: 600;
+}
+.text-product span {
+    color: #000;
+    padding: 0 0 0 5px;
+    font-weight: 500;
+}
+.text-product span:last-child{
+    text-decoration: line-through;
+    color:red;
+}
+.text-discount{
+    position: absolute;
+    top: 0;
+    right:5%;
+    font-weight:700;
+}
+.text-discount p:first-child{
+    color: pink;
+}
+.text-discount p:last-child{
+    color:blue;
+}
+.more{
+    text-align:center;
+}
+.btn-like{
+    border:none;
+    background-color: transparent;  
+}
